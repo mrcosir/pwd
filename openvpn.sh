@@ -1,7 +1,7 @@
 #!/bin/bash
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
-# wget http://sbwml.cn/openvpn.sh && bash openvpn.sh 2>&1 | tee openvpn.log
+# wget https://raw.github.com/mu228/pwd/master/openvpn.sh && bash openvpn.sh 2>&1 | tee openvpn.log
 clear;
 # Logo 	******************************************************************
 CopyrightLogo='
