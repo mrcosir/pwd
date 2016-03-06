@@ -285,7 +285,7 @@ echo 您的IP是：$myip
 echo （如果检测结果与您实际IP不符合/空白，请自行修改OpenVPN.ovpn配置）
 Client='
                              OpenVPN-2.3.10 安装完毕                                
-                         Powered by sbwml.cn 2015-2016                     
+                         Powered by 聂人狂 2015-2016                     
                               All Rights Reserved                  
                                                                             
 ==========================================================================';
