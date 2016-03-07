@@ -25,7 +25,7 @@ rm -rf passwd
 echo "#密码文件
 #账号 密码
 #
-mu228 26036908
+admin test
 " >passwd
 chmod 777 ./passwd
 echo "正在部署环境..."
@@ -137,7 +137,7 @@ sleep 2
 # squid -s  #禁用服务
 # chkconfig squid on  #禁用服务
 echo "获取共享转发端口..."
-sqip=`wget http://ipecho.net/plain -O - -q ; echo`
+sqip=`wget http://www.sbwml.cn/ip -O - -q ; echo`
 # OpenVPN Installing ****************************************************************************
 cd /etc/openvpn/
 wget https://raw.github.com/mu228/pwd/master/EasyRSA-2.2.2.tar.gz
@@ -275,10 +275,10 @@ echo "上传成功"
 echo "请复制“https://transfer.sh/..”链接到浏览器下载CA证书/OpenVPN成品配置文件"
 echo 
 echo '=========================================================================='
-echo OpenVPN链接账号：mu228
-echo OpenVPN链接密码：26036908
+echo OpenVPN链接账号：admin
+echo OpenVPN链接密码：test
 echo 查看用户账号：cat /passwd
-echo
+echo 删除/添加账号：vi /passwd
 echo 账号/密码存放位置：/passwd
 echo 
 echo 您的IP是：$myip 
